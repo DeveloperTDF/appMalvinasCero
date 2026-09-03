@@ -1,0 +1,35 @@
+/* 1. TÍTULO PRINCIPAL: Centrado, fuente moderna y sombra de texto */
+h1 {
+  text-align: center;                  /* Alineación al centro */
+  color: #1a365d;                      /* Color azul oscuro */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Tipo de letra */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);    /* Sombra de texto */
+}
+
+/* 2. CONTENEDOR / ARTÍCULO: Sombra de caja (box-shadow) para darle relieve */
+article {
+  background-color: #ffffff;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra exterior al contenedor */
+}
+
+/* 3. PÁRRAFO: Texto justificado y tipografía clásica legible */
+p {
+  text-align: justify;                 /* Alineación justificada */
+  color: #4a5568;                      /* Color gris suave para lectura */
+  font-family: 'Georgia', serif;       /* Tipo de letra con serifa */
+}
+
+/* 4. PIE DE PÁGINA: Alineado a la derecha, color atenuado y fuente monoespaciada */
+footer {
+  text-align: right;                   /* Alineación a la derecha */
+  color: #718096;                      /* Color gris claro */
+  font-family: 'Courier New', monospace;/* Tipo de letra estilo máquina de escribir */
+}
+.centrado {
+  text-align: center;                  /* Alineación al centro */
+  color: #1a365d;                      /* Color azul oscuro */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Tipo de letra */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);    /* Sombra de texto */
+}
